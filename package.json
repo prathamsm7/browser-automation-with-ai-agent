@@ -1,0 +1,35 @@
+{
+  "name": "browser-automation-with-ai-agent",
+  "version": "1.0.0",
+  "description": "AI-powered browser automation agent using OpenAI Agent SDK",
+  "type": "module",
+  "main": "main.js",
+  "dependencies": {
+    "@openai/agents": "^0.1.5",
+    "dotenv": "^17.2.2",
+    "zod": "^3.25.76",
+    "playwright": "^1.55.1",
+    "openai": "^4.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.5.2"
+  },
+  "scripts": {
+    "setup": "node setup.js",
+    "start": "node main.js",
+    "demo": "node demo.js",
+    "install-browsers": "playwright install chromium"
+  },
+  "keywords": [
+    "ai",
+    "automation",
+    "browser",
+    "openai",
+    "playwright",
+    "agent",
+    "chaicode"
+  ],
+  "author": "Pratham Mungekar",
+  "license": "MIT"
+}
